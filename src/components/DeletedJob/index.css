@@ -1,0 +1,65 @@
+.deleted-job-page {
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.deleted-job-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.deletedJob-card-container {
+    border: 2px solid rgb(174, 170, 170);
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    height:200px;
+    border-radius:20px;
+}
+
+.deletedJob-image {
+    width:90%;
+}
+
+.deletedJob-name {
+    color:darkblue;
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+.no-view-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+}
+
+.no-view-image {
+    width:40%;
+}
+
+.no-view-heading {
+    font-size:25px;
+    font-family: 'Times New Roman', Times, serif;
+    color:darkblue;
+}
+
+.no-view-description {
+    font-size:18px;
+    font-family: 'Times New Roman', Times, serif;
+    color:darkgrey;
+}
